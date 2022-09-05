@@ -14,7 +14,7 @@ Finally, two images were created for the stock analysis outputs for 2017 and 201
 For a detailed analysis of all work please see the [VBA_Challenge.xlsm](https://github.com/JaredTMurray/stock-analysis/blob/main/VBA_Challenge.xlsm).
 
 Written Analysis of Results
-Overview of Project:
+#### Overview of Project:
 The purpose of the refactoring was to make the code more accessible and simpler to understand for Steve. It generated results based on nested loops, for loops and formatting of the previous information in the stock analysis VBA macros.
 
 #### Results:
