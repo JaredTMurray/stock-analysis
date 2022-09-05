@@ -27,7 +27,7 @@ The results here contain the 2017 and 2018 Total Daily Volumes and Returns for S
 
 ![2017 Total Daily Volume and Return](https://github.com/JaredTMurray/stock-analysis/blob/main/2017.png)
 
-
+![2018 Total Daily Volume and Return]()
 
 Summary: 
 the advantages of refactoring code include the fact that code can be sampled from a much larger dataset, it is more time efficient in execution; in terms of gathering data from nested loops, for loops and if-then statements and in general makes the script run faster, and finally it provides more relevant data from the dataset for the user to interpret in an intelligeble manner. 
