@@ -15,12 +15,17 @@ Finally, two images were created for the stock analysis outputs for 2017 and 201
 Written Analysis of Results
 Overview of Project:
 The purpose of the refactoring was to make the code more accessible and simpler to understand for Steve. It generated results based on nested loops, for loops and formatting of the previous information in the stock analysis VBA macros.
-Results:
+
+#### Results:
+
 The results here contain the 2017 and 2018 Total Daily Volumes and Returns for Steve and which ones were successful or not using the refactored code. 
-The returns remain the same in both years irregardless whether the original code or refactored code was used.
-ENPH and RUN were the only 2 positive returns Steve had for his stocks at 81.9% and 84% respectively. 
-It took approximately 0.1171875 seconds for the code to run for the year 2017
-It took approximately 0.0234375 seconds for the code to run for the year 2018. 
+* The returns remain the same in both years irregardless whether the original code or refactored code was used.
+* ENPH and RUN were the only 2 positive returns Steve had for his stocks at 81.9% and 84% respectively. 
+* It took approximately 0.1171875 seconds for the code to run for the year 2017
+* It took approximately 0.0234375 seconds for the code to run for the year 2018.
+
+IMAGES
+
 Summary: 
 the advantages of refactoring code include the fact that code can be sampled from a much larger dataset, it is more time efficient in execution; in terms of gathering data from nested loops, for loops and if-then statements and in general makes the script run faster, and finally it provides more relevant data from the dataset for the user to interpret in an intelligeble manner. 
 The disadvantages include possibly corrupting previous code through changes made from expansion of data set and varibles, and that the code for the project may have been better for the user in question in the first place and should not have been changed. 
