@@ -30,13 +30,17 @@ The results here contain the 2017 and 2018 Total Daily Volumes and Returns for S
 ![2018 Total Daily Volume and Return](https://github.com/JaredTMurray/stock-analysis/blob/main/2018.png)
 
 #### Summary: 
-the advantages of refactoring code include the fact that code can be sampled from a much larger dataset, it is more time efficient in execution; in terms of gathering data from nested loops, for loops and if-then statements and in general makes the script run faster, and finally it provides more relevant data from the dataset for the user to interpret in an intelligeble manner. 
-The disadvantages include possibly corrupting previous code through changes made from expansion of data set and varibles, and that the code for the project may have been better for the user in question in the first place and should not have been changed. 
+The advantages of refactoring code include the fact that code can be sampled from a much larger dataset, it is more time efficient in execution; in terms of gathering data from nested loops, for loops and if-then statements and in general makes the script run faster, and finally it provides more relevant data from the dataset for the user to interpret in an intelligeble manner. 
+The disadvantages include possibly corrupting previous code through changes made from expansion of data set and varibles, and that the code for the project may have been better for the user in question in the first place and should not have been changed.
+
 The advantages and disadvantages when contrasted side by side for both the original and refactored VBA script include:
-Advantage of original: less of a large dataset to draw from for Steve's initial summations of daily volumes and returns regarding his tickers. His total volume for the current ticker was simpler to obtain.
-Advantage of refactored VBA script: more of a large dataset to draw from for Steve's initial summations of daily volumes and returns regarding his tickers. His increased volume for the current ticker is now more obtainable.
-Advantage of original: The starting price and the ending price for the current ticker could be gotten simpler
-Advantage of refactored VBA script: The current row can be checked now to view if it is the either the first row with the selected ticker index or the last row with the selected ticker index.
-Advantage of refactored VBA script: The time spent is a bit less for both years (2017) 0.1171875 seconds and (2018) 0.0234375 seconds in terms of running the code to get Total Daily Volume and Returns.
-Disadvantage of original: less relevant data from the dataset is provided. For instance only Tickers is used as an array, whereas with the refactored vba script uses tickers, tickerVolumes, ticketStartingPrices and ticketEndingPrices as arrays. Thus less detailed analysis can be carried out. 
-Disadvantage of refactored VBA script: more data from dataset is provided however, less information about starting and ending prices for tickets is obtained. Instead the nested loop contains information whether the current row is the first or last row with the selected tickerindex. 
+* Advantage of original: less of a large dataset to draw from for Steve's initial summations of daily volumes and returns regarding his tickers. His total volume for   the current ticker was simpler to obtain.
+* Advantage of refactored VBA script: more of a large dataset to draw from for Steve's initial summations of daily volumes and returns regarding his tickers. His increased volume for the current ticker is now more obtainable.
+
+* Advantage of original: The starting price and the ending price for the current ticker could be gotten simpler
+* Advantage of refactored VBA script: The current row can be checked now to view if it is the either the first row with the selected ticker index or the last row with the selected ticker index.
+
+* Advantage of refactored VBA script: The time spent is a bit less for both years (2017) 0.1171875 seconds and (2018) 0.0234375 seconds in terms of running the code to get Total Daily Volume and Returns.
+
+* Disadvantage of original: less relevant data from the dataset is provided. For instance only Tickers is used as an array, whereas with the refactored vba script uses tickers, tickerVolumes, ticketStartingPrices and ticketEndingPrices as arrays. Thus less detailed analysis can be carried out. 
+* Disadvantage of refactored VBA script: more data from dataset is provided however, less information about starting and ending prices for tickets is obtained. Instead the nested loop contains information whether the current row is the first or last row with the selected tickerindex. 
