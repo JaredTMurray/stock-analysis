@@ -1,5 +1,7 @@
 # stock-analysis
 ### Module 2 VBA Macros
+## Second attempt Please see file [VBA_Chellenge]()
+
 #### Refactor VBA Code and Measure Performance
 ##### Deliverable 1:
 In this module, I prepared an assignment in which the code was made more efficient through refactoring. I iterated all the rows and created a new index variable which was set to zero, then completed three arrays in two different types. 
@@ -11,7 +13,7 @@ If-Then statements were written to check if the current row was both the first a
 A for loop was created to output the “Ticker,” “Total Daily Volume,” and “Return” columns in the spreadsheet.
 
 Finally, two images were created for the stock analysis outputs for 2017 and 2018.
-For a detailed analysis of all work please see the [VBA_Challenge.xlsm](https://github.com/JaredTMurray/stock-analysis/blob/main/VBA_Challenge.xlsm).
+For a detailed analysis of all work 
 
 Written Analysis of Results
 #### Overview of Project:
