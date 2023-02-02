@@ -1,6 +1,30 @@
 # stock-analysis
 ### Module 2 VBA Macros
 ## Second attempt Please see file [VBA_Chellenge](https://github.com/JaredTMurray/stock-analysis/blob/main/VBA_Challenge.xlsm)
+Please note step 4 I have add the code macros AlStocksAnalysisRefactored
+
+  -  Dim tickers() As Variant
+  -  Dim tickerVolumes() As Variant
+  -  Dim tickerStartingPrices() As Variant
+  -  Dim tickerEndingPrices() As Variant
+  -  Dim str_ArrayName As String
+  -  Dim a As Integer
+  -  Dim b As Integer
+    
+  -  a = 2
+    
+  -  ReDim tickers(1 To a)
+  -  ReDim tickerVolumes(1 To a)
+  -  ReDim tickerStartingPrices(1 To a)
+  -  ReDim tickerEndingPrices(1 To a)
+    
+  -  For b = 1 To 11
+  -      str_ArrayName = "Ticker" & b
+  -     For a = LBound(str_ArrayName, 1) To UBound(str_ArrayName, 1)
+  -         str_ArrayName(a, b) = DQAnalysis.Range("A1").Offset(a - 1, b - 1).Value
+  -     Next a
+  - Next b
+
 
 #### Refactor VBA Code and Measure Performance
 ##### Deliverable 1:
